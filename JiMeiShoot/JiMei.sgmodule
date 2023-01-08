@@ -1,0 +1,8 @@
+#!name=JiMeiShoot Crack
+#!desc=No need to consume any points to obtain any user contact information 
+
+[Script]
+JiMei.js = requires-body=0,max-size=-1,script-path=https://raw.githubusercontent.com/missuo/QuanX/main/JiMeiShoot/JiMei.js,type=http-response,pattern=^https?:\/\/www\.jimeiyuepai\.com\/user\/getUserInfoForHomepage,script-update-interval=0
+
+[MITM]
+hostname = www.jimeiyuepai.com:0
